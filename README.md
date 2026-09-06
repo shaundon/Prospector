@@ -6,12 +6,18 @@ I built this for myself (well, I vibe coded it so if any code is janky please do
 
 ## Setup
 
-1. Drag your `.usdz` file into the `Prospector` folder in Xcode.
-2. Set `modelName` at the top of `ImmersiveView.swift` to your file's name (without the extension).
-3. Set your development team in the project's Signing & Capabilities settings.
-4. Build and run on Apple Vision Pro (visionOS 2.5+).
+1. Set your development team in the project's Signing & Capabilities settings.
+2. Build and run on Apple Vision Pro (visionOS 2.5+).
+
+Use the **Passthrough** control on the floating panel to let your real surroundings show through the model.
 
 ## Controls
+
+### Without a controller
+
+Pinch anywhere on the model and drag. Use your left hand to move the model, and your right to rotate it. With this, you can line up the model to match a real-life room.
+
+### With a game controller
 
 Pair a game controller (e.g. a DualSense or Xbox controller) with your Vision Pro. Movement is relative to the direction you're looking.
 
@@ -24,7 +30,7 @@ Pair a game controller (e.g. a DualSense or Xbox controller) with your Vision Pr
 | D-pad right | Toggle terrain follow (height snaps to the ground as you move) |
 | D-pad left | Toggle speed mode (6× movement) |
 
-You can also pinch your thumb and middle finger together for half a second (either hand) to toggle the model's visibility.
+You can also pinch your thumb and middle finger together for half a second (either hand) to switch full passthrough on or off.
 
 ## Credits
 
